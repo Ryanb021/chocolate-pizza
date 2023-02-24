@@ -33,7 +33,7 @@ header {
 }
 /*repeating image*/
 .divider {
-  background-image: url("/img/hr-img.png");
+  background-image: url("img/hr-img.png");
   background-repeat: repeat;
   height: 20px;
   width: 960px;
@@ -105,7 +105,7 @@ main {
 
 /*ingredients*/
 .recipe-ingredients-container {
-  background-image: url(/img/list-bg.png);
+  background-image: url(img/list-bg.png);
   margin-bottom: 30px;
 
 }
