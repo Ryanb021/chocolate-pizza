@@ -1,0 +1,197 @@
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 960px;
+  margin: 30px auto;
+}
+
+.motto-and-logo-container {
+  float: right;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.motto-text {
+  font-family: 'Yellowtail', cursive;
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+
+.motto {
+  font-size: 10px;
+}
+
+.social-media-icons img:nth-of-type(7) {
+  margin-left: 10px;
+}
+/*repeating image*/
+.divider {
+  background-image: url("/img/hr-img.png");
+  background-repeat: repeat;
+  height: 20px;
+  width: 960px;
+  margin: 0 auto 30px;
+}
+/*recipe section*/
+main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.recipe-name-container {
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+  text-align: left;
+  margin-top: 60px;
+}
+
+.recipe-name-container h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.recipe-name p{
+  font-family: 'Roboto',sans-serif;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #BDBDC3;
+  letter-spacing: -1px;
+}
+
+/*print-icon*/
+.printer-icon-container {
+  align-self: flex-end;
+  margin-bottom: 30px;
+}
+
+.printer-icon-container p {
+  float: right;
+  font-family: 'Roboto', sans-serif;
+  color: #BDBDC3;
+  font-weight: 300;
+  font-size: 12px;
+  margin-top: 4px;
+}
+/*choco pizza image*/
+.recipe-image-container img {
+  width: 960px;
+  margin-bottom: 30px;
+}
+
+/*instructions*/
+.recipe-instruction {
+  margin-bottom: 30px;
+}
+
+.recipe-instruction p {
+  margin: 30px  auto;
+  text-align: left;
+}
+
+/*ingredients*/
+.recipe-ingredients-container {
+  background-image: url(/img/list-bg.png);
+  margin-bottom: 30px;
+
+}
+
+.ingredients-list {
+  display:flex;
+  font-family: 'Patrick Hand', cursive;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+  position: relative;
+}
+
+.ingredients-list section {
+ margin: 40px;
+}
+
+.recipe-ingredient {
+  margin: 10px;
+}
+
+footer {
+  margin: 60px auto;
+  width: 960px;
+}
+
+.author {
+  display: inline-flex;
+  margin: 0 auto 30 px;
+  justify-content: space-between;
+}
+
+.author img {
+  margin-right: 20px;
+}
+
+.text {
+  text-align: left;
+}
+
+.text h4 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.text p {
+  margin-top: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+  background-color: rgb(255, 25, 0);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  height: 50px;
+  font-size: 16px;
+  margin-left: 80px;
+  width: 200px;
+  border: none;
+  align-self: flex-end;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px auto;
+  width: 960px;
+}
+
+.footer-logo hr {
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  color: #BDBDC3;
+}
+
+.left-hr {
+  border-top: solid;
+  width: 48%;
+  color: #BDBDC3;
+}
+
+.right-hr {
+  border-top: solid;
+  width: 48%;
+  color: #BDBDC3;
+}
+
+.copyright {
+  color: #BDBDC3;
+  font-size: 13px;
+}
