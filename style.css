@@ -19,12 +19,13 @@ header {
 
 .motto-text {
   font-family: 'Yellowtail', cursive;
-  font-weight: bold;
+  font-weight:bold;
   font-size: 2.3rem;
 }
 
 .motto {
   font-size: 10px;
+  color: #BDBDC3;
 }
 
 .social-media-icons img:nth-of-type(7) {
@@ -96,6 +97,10 @@ main {
 .recipe-instruction p {
   margin: 30px  auto;
   text-align: left;
+  text-indent: 2%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  color: gray;
 }
 
 /*ingredients*/
@@ -112,6 +117,8 @@ main {
   justify-content: center;
   text-align: left;
   position: relative;
+  color: gray;
+  font-size: 26px;
 }
 
 .ingredients-list section {
@@ -138,18 +145,20 @@ footer {
 }
 
 .text {
-  text-align: left;
+  text-align: left;;
 }
 
 .text h4 {
   font-size: 1.4rem;
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
+  color: rgb(95, 95, 95);
 }
 
 .text p {
   margin-top: 15px;
   font-family: 'Times New Roman', Times, serif;
+  color: rgb(95, 95, 95);
 }
 
 button {
